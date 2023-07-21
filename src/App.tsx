@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar";
+import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar/><AboutMe/><Footer/>
     </div>
   );
 }
