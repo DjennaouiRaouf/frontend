@@ -8,8 +8,10 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <div className="App">
-      <NavBar/><Skills label={"Programming langage"}
-                       data={[{skill_label:"C++",img:"",level:3},{skill_label:"C++",img:"",level:3},{skill_label:"C++",img:"",level:3},{skill_label:"C++",img:"",level:3},{skill_label:"C++",img:"",level:3},{skill_label:"C++",img:"",level:3},{skill_label:"C++",img:"",level:3}] }/><Footer/>
+      <NavBar/>
+
+        <AboutMe/>
+        <Footer/>
     </div>
   );
 }
