@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 
 const NavBar: React.FC = () => {
 
@@ -14,14 +14,12 @@ const NavBar: React.FC = () => {
           <div className="collapse navbar-collapse" id="navcol-1">
             <ul className="navbar-nav me-auto">
               
-              <li className="nav-item"><a className="nav-link active" href="#" style={{"color": "rgba(255,255,255,0.9)"}}>About
-                me</a></li>
+              <li className="nav-item"><Link className="nav-link active" to="/about" style={{"color": "rgba(255,255,255,0.9)"}}>About
+                me</Link></li>
               
-              <li className="nav-item"><a className="nav-link" href="#"
-                                          style={{"color": "rgba(255,255,255,0.9)"}}>Database</a></li>
+
               
-              <li className="nav-item"><a className="nav-link" href="#" style={{"color": "rgba(255,255,255,0.9)"}}>Programming
-                langage</a></li>
+              <li className="nav-item"><Link className="nav-link" to="/skills" style={{"color": "rgba(255,255,255,0.9)"}}>Skills</Link></li>
             </ul>
             <button className="btn btn-primary" type="button">Admin</button>
           </div>

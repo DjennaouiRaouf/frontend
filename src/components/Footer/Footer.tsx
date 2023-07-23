@@ -53,7 +53,7 @@ const Footer: React.FC = () =>  {
               </div>
               <div className="col">
                 <ul className="list-inline my-2">
-                  <li className="list-inline-item"><img src={signature} alt={''}/></li>
+                  <li className="list-inline-item"><img src={signature} style={{"width":"100px"}}alt={''}/></li>
                 </ul>
               </div>
             </div>

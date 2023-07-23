@@ -66,7 +66,7 @@ const Skills: React.FC <SkillsProps> = ({label,data}) =>  {
               <div className="card-body text-center d-flex flex-column align-items-center p-0"
                    style={{"background": "#1A233A","borderTopRightRadius": "20px","borderTopLeftRadius": "20px","height": "270px"}}><img
                   className="rounded-circle mb-3 fit-cover" width="130" height="130"
-                  src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" style={{"marginTop": "13px"}}/>
+                  src={d.img} style={{"marginTop": "13px"}}/>
                 <h5 className="fw-bold text-primary card-label mb-0"><strong>{d.skill_label}</strong></h5>
 
                 <ul className="list-inline fs-6 text-muted w-100 mb-0" style={{"marginTop":"30px"}}>

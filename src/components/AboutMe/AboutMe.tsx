@@ -22,7 +22,7 @@ const AboutMe: React.FC = () =>  {
         array.push({ data_key: "Graduate of", data_value:"Master's degree in Bioinformatics" });
         setData(array);
         setFullname('Djennaoui Raouf');
-        setAbout('Computer engineer, interested in the development of computer,web,mobile applications using new technologies.');
+        setAbout('A full-stack developer interested in innovation, I am specialized in the design of high-performance and scalable applications. My goal is to create software solutions that simplify users\' lives and optimize business processes.');
     }, []);
 
   return (
